@@ -15,10 +15,10 @@ os.putenv('NLS_LANG', 'KOREAN_KOREA.KO16MSWIN949')
 class Dao(SingletonInstance):
 
     # D/B 접속 정보
-    HOST = '211.62.179.111'
+    HOST = '123.45.678.901'
     SID = 'orcl'
-    ID = 'MASTER'
-    PASSWORD = 'ROOT1234'
+    ID = 'abcd'
+    PASSWORD = 'abcd'
 
     # MARKET_CODE = '1005601'     # 가락
     MARKET_CODE = '1041401'    # 대구
